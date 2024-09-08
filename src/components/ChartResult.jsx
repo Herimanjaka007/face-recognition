@@ -12,7 +12,7 @@ const ChartResult = ({ expressions }) => {
             data: {
                 labels: Object.keys(expressions),
                 datasets: [{
-                    label: '# of Votes',
+                    label: 'value of each expression',
                     data: Object.values(expressions),
                     borderWidth: 1
                 }]

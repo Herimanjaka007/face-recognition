@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
-import { Chart } from "chart.js/auto";
+import { Chart, registerables } from "chart.js";
 
-
+Chart.register(...registerables);
 const ChartResult = ({ expressions }) => {
     const canvasRef = useRef();
 

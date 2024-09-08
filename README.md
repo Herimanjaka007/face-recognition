@@ -27,7 +27,7 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votr
 1. Clonez le dépôt du projet :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/face-rekognition.git
+   git clone https://github.com/Herimanjaka007/face-rekognition.git
 
 2. Accédez au répertoire du projet :
 
